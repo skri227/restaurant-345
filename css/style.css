@@ -1,0 +1,132 @@
+div{
+  /*border: 1px solid purple;*/
+}
+
+.empty-space{
+  min-height: 100px;
+}
+
+.nav{
+  text-align: center;
+}
+
+.nav li{
+  display:inline;
+  padding: 50px;
+}
+
+.nav li a img{
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+}
+
+.nav li a button{
+  font-family: Droid Serif;
+  font-size: 10px;
+  font-weight: bold;
+  border-radius: 0px;
+  background-color: #d5d5d5;
+}
+
+.nav li a:hover{
+  font-family: Droid Serif;
+  color:white;
+  background-color: #1f1f2e;
+  text-decoration: none !important;
+}
+
+.big-image{
+  text-align: center;
+  padding: 40px;
+  padding-bottom: 20px;
+}
+
+.big-image h1{
+  color: white;
+  font-family: Droid Serif;
+  font-size: 56px;
+}
+
+.big-image p{
+  color: #d5d5d5;
+  font-family: Droid Serif;
+  font-size: 30px;
+}
+
+.big-image button{
+  font-family: Droid Serif;
+  background-color: transparent;
+  border: 1px solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.big-image button:hover{
+  color:white;
+  background-color: #1f1f2e;
+}
+
+.landing-image{
+  background-image: url("../images/venice_night.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  opacity: .9;
+  margin: auto;
+  background-size: 100% 100%;
+
+}
+
+/*---------------------About Us---------------------*/
+
+.our-history{
+  padding: 20px;
+}
+
+.about-image{
+  background-image: url("../images/italian-flag.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  margin: auto;
+  background-size: 100% 100%;
+}
+
+
+/*-------------------Menu-------------------------*/
+
+.menu-image{
+  background-image: url("../images/italian_dinner.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  margin: auto;
+  background-size: 100% 100%;
+}
+
+.menu-empty-space{
+    min-height: 30px;
+}
+
+.menu-copy{
+  color: white;
+  font-family: Droid Serif;
+  font-style: italic;
+}
+
+.menu-copy h1{
+  color: white;
+  font-size: 40px;
+}
+
+.menu-copy h3{
+  color: white;
+  text-align: left;
+  font-size: 27px;
+}
+
+.menu-copy p{
+  color: white;
+  text-align: left;
+  font-size: 20px;
+}
